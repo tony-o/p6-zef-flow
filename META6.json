@@ -1,0 +1,19 @@
+{
+  "name": "Zef::Flow",
+  "support": {
+    "bugtracker" : "https://github.com/tony-o/p6-zef-flow/issues"
+  },
+  "perl" : "6.c",
+  "provides": {
+    "Zef::Flow": "lib/Zef/Flow.pm6"
+  },
+  "depends": [
+    "Flow:ver<0.0.4+>"
+  ],
+  "test-depends": [ "Test" ],
+  "description": "Zef plugin for Flow",
+  "source-url": "https://github.com/tony-o/perl6-flow.git",
+  "authors": [ "Tony O'Dell" ],
+  "auth": "github:tony-o",
+  "version": "0.0.1"
+}
